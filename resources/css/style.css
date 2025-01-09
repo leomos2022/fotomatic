@@ -7,6 +7,10 @@ html {
 .main-content {
   position: relative;
   top: 5.3125rem; /* To offset for fixed header */
+  width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+  margin: 0; /* Elimina márgenes */
+  padding: 0; /* Elimina relleno */
+  box-sizing: border-box; /* Incluye los bordes y el padding en el ancho total */
 }
 
 .center {
